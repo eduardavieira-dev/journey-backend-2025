@@ -1,0 +1,33 @@
+{
+  "name": "wt-journey-backend-01-etapa-3-eduardavieira-dev",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/mzlsx7b3)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js",
+    "db:reset": "npm run db:down && npm run db:up && npm run db:wait && npm run db:migrate && npm run db:seed",
+    "db:up": "docker compose --env-file .env up -d",
+    "db:down": "docker compose down -v",
+    "db:wait": "timeout 5",
+    "db:migrate": "npx knex migrate:latest",
+    "db:seed": "npx knex seed:run",
+    "db:rollback": "npx knex migrate:rollback"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "pg": "^8.16.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^11.1.0",
+    "zod": "^4.1.4"
+  }
+}

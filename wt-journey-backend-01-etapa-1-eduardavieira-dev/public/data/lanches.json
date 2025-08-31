@@ -1,0 +1,17 @@
+[
+{
+    "id": 1,
+    "nome": "CodeCheese",
+    "ingredientes": "Pão de batata, Carne 120g, Queijo muçarela, Alface, Tomate, Molho de alho"
+},
+{
+    "id": 2,
+    "nome": "Stack Bacon",
+    "ingredientes": "Pão tradicional, Carne 200g, Queijo suíço, Bacon, Cebola roxa, Molho chipotle"
+},
+{
+    "id": 3,
+    "nome": "Veggie Loop",
+    "ingredientes": "Pão de cenoura, Hambúrguer de lentilha, Queijo minas, Alface, Beterraba ralada, Maionese vegana"
+}
+]

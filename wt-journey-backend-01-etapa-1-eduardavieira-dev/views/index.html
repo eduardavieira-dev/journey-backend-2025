@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+     <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
+    />
+  </head>
+    <title>Cadastro de Lanche</title>
+  </head>
+  <body>
+   <div class="center">
+    <main>
+      <div class="container">
+        <i class="ph ph-hamburger" style="color: rgb(233, 137, 27)"></i>
+        <span>  </span><h1>DevBurguer</h1>
+        <h3>Cadastro de Lanches</h3>
+
+        <form action="/sugestao" method="GET">
+          <label for="nome">Nome do lanche:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="ingredientes">Ingredientes:</label>
+          <textarea id="ingredientes" name="ingredientes" rows="4" required></textarea>
+
+          <button type="submit"><span>Cadastrar</span></button>
+        </form>
+        <div class="links">
+          <a href="/contato" target="_blank">Contato</a> |
+          <a href="/api/lanches" target="_blank">API Lanches</a>
+         
+        </div>
+      </div>
+    </main>
+  </div>
+    
+  </body>
+</html>
