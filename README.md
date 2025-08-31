@@ -42,6 +42,8 @@ Este repositório documenta a evolução do projeto Journey Backend, desenvolvid
 
 - **Artigo sobre JWT do Arthur Bontempo:**
   - [Autenticação de APIs em Node.js com JWT e Bcrypt](https://medium.com/@arturbomtempo/autentica%C3%A7%C3%A3o-de-apis-em-node-js-com-jwt-e-bcrypt-2e1564d264d9)
+- **YouTube da WebTech com os conteudos do Journey:**
+  - [Playlist do Journey Backend 2025](https://youtube.com/playlist?list=PLoDiIEDy8xbRT-5ZvJ7cC37aP0lmnS3rn&si=it1cqRStE75qSA7J)
 
 ## Agradecimentos
 
