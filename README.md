@@ -1,4 +1,4 @@
-# Journey Backend 2025 – Guia das Etapas
+<h1><img src="https://www.svgrepo.com/show/452075/node-js.svg" alt="Node" width="32" style="vertical-align:middle; margin-right:8px;"/>Journey Backend 2025 – Guia das Etapas</h1>
 
 Este repositório documenta a evolução do projeto Journey Backend, desenvolvido durante a jornada de backend da Webtech. Cada etapa representa um avanço no aprendizado e na implementação de funcionalidades, desde os conceitos iniciais de Node.js até autenticação JWT, banco de dados e Docker.
 
